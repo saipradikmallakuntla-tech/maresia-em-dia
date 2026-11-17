@@ -1,26 +1,23 @@
-# Maresia em Dia
+# Maresia em Dia / Coastal Maintenance Reference
 
-[Aplicativo](https://saipradikmallakuntla-tech.github.io/maresia-em-dia/) | [Central da rede](https://saipradikmallakuntla-tech.github.io/praia-digital-satellite-hub/)
+[Guia publicado / Published guide](https://saipradikmallakuntla-tech.github.io/maresia-em-dia/) · [Fonte / Source](docs/index.md) · [Diretório / Directory](docs/NETWORK_DIRECTORY.md)
 
-HTML/CSS/JS sem dependencias, npm ou build. Pages: main/raiz com .nojekyll. Componentes, intervalos, conclusao, desfazer, backup JSON, impressao e calendario ICS. ICS e uma fotografia de 3 ocorrencias por componente, sem sincronizacao automatica.
+## PT
 
-Dados em localStorage, chave maresia-em-dia:v1. Faca backup, nao armazene segredos. Projetos Pages compartilham a origem do usuario. Sem analytics, fontes remotas ou CDN. Nao e laudo nem recomendacao de periodicidade: consulte fabricante ou profissional.
+Guia documental para organizar observações, manuais e perguntas sobre conservação no litoral. Não diagnostica corrosão, estrutura ou instalações, não define periodicidade universal e não substitui fabricante ou profissional habilitado.
 
-Desenvolvimento local: python -m http.server 8000. Rede independente e complementar a Praia Digital, sem vinculo institucional presumido. Consulte a arquitetura da central para verificacao da rede.
+GitHub Pages publica **main → /docs**, com HTTPS e sem domínio personalizado. O site usa somente `docs/index.md` e `docs/NETWORK_DIRECTORY.md`; o [diretório da raiz](NETWORK_DIRECTORY.md) é um espelho documental. O aplicativo e todos os demais arquivos legados da raiz permanecem inalterados, inclusive `.nojekyll`, mas não integram a nova fonte de publicação. Não há novo código, scripts ou reescrita de histórico.
 
-## Scope A — diretório documental / Documentation directory
+## EN
 
-Revisão editorial / Editorial revision: **2026-11-17**. O aplicativo e seus arquivos permanecem preservados. A partir desta conversão, somente README.md e NETWORK_DIRECTORY.md são atualizados aqui; não há alterações de HTML, CSS, JavaScript, dados ou configuração Pages. Os três novos destinos são guias de referência em Markdown, não calculadoras ou agendas ao vivo.
+A documentation-only guide for organising observations, product manuals and maintenance questions in coastal settings. It does not diagnose corrosion, structures or electrical systems, prescribe universal intervals or replace qualified advice.
 
-The existing application and its files are preserved. This conversion changes only README.md and NETWORK_DIRECTORY.md here; it does not modify HTML, CSS, JavaScript, data or Pages settings. The three new destinations are Markdown reference guides, not interactive calculators or live schedules. No new functional-test result is claimed for this app in this documentation pass.
+Pages publishes Markdown from **main → /docs**, with HTTPS and no custom domain. The root directory mirrors the published directory. Legacy application files remain unchanged outside the publishing source; no code or publication scripts are added.
 
-[Diretório completo e limites / Full directory and limits](NETWORK_DIRECTORY.md)
+## Checklist e limites / Checklist and limits
 
-- [Central / Hub](https://saipradikmallakuntla-tech.github.io/praia-digital-satellite-hub/)
-- [Acesso à Praia / Beach access](https://saipradikmallakuntla-tech.github.io/acesso-a-praia/)
-- [Costa em Contexto / Regional context](https://saipradikmallakuntla-tech.github.io/costa-em-contexto/)
-- [Rota Ciclo Costeira / Cycling reference](https://saipradikmallakuntla-tech.github.io/rota-ciclo-costeira/)
-- [Balneabilidade Guia / Bathing-water reference](https://saipradikmallakuntla-tech.github.io/balneabilidade-guia/)
-- [Feiras e Serviços / Markets and services reference](https://saipradikmallakuntla-tech.github.io/feiras-e-servicos-litoral/)
+- [ ] Identificar o componente e seu manual / Identify the component and product instructions.
+- [ ] Registrar data e dúvida, sem inventar inspeções / Record dates and questions without inventing inspections.
+- [ ] Encaminhar perigos a profissionais / Refer hazards to qualified professionals.
 
-Direct HTTPS project URLs only, no custom-domain changes. The audit fork and upstream/third-party repositories are outside scope. Previous architecture records remain historical; consult the current directory and destination guides for the Markdown conversion.
+Revisão editorial / Editorial revision: **2026-11-17**, not a technical inspection or product-update date. Independent reference only. The SEO audit, upstream forks and third-party repositories are excluded from changes.
